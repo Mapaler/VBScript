@@ -1,5 +1,7 @@
 # 枫谷剑仙自编VBS脚本
 打包下载项目请点右上角绿色的“Clone or download”按钮，然后选择“Download ZIP”
+
+本项目以GPLv3协议开源
 # 分项使用介绍
 ## 日文乱码系列
 ### 日文文本文件转换为UTF8编
@@ -10,7 +12,7 @@
 
 *注：此脚本不改变文件扩展名。*
 ### 日文乱码文件名转换到Unicode改名
-ZIP不支持Unicode字符，MMD素材等很多日本网友用zip打包的，用GBK编码解压后就是一堆乱码。如果没能使用BandZip等支持修改编码的压缩软件从源头上以Shift-JIS编码解压，也可以使用本工具对解压后的文件进行改名。
+ZIP不支持Unicode字符，MMD素材等很多日本网友用zip打包的，用GBK编码解压后就是一堆乱码。首先推荐使用[BandZip](http://www.bandisoft.com/bandizip/)等支持修改编码的压缩软件从源头上以Shift-JIS编码解压，也可以使用本工具对解压后的文件进行改名。本软件为中日文件名混合识别模式，可以自动区分文件名是否需要修改，所以可能会有一定的识别错误。
 
 下载 [日文乱码文件名 to Unicode改名.bat](https://github.com/Mapaler/VBScript/raw/master/%E6%97%A5%E6%96%87%E4%B9%B1%E7%A0%81%E6%96%87%E4%BB%B6%E5%90%8D%20to%20Unicode%E6%94%B9%E5%90%8D.bat) 和 [VBScript/JP_fn_to_U.vbs](https://github.com/Mapaler/VBScript/raw/master/VBScript/JP_fn_to_U.vbs) 两个文件，注意要按照文件夹结构保存。  
 将文件名为乱码的文件或文件夹（可多个）拖到本脚本上运行，会自动转换名称到原始的日文。  
