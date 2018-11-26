@@ -14,7 +14,8 @@ ZIP不支持Unicode字符，MMD素材等很多日本网友用zip打包的，用G
 
 下载 [日文乱码文件名 to Unicode改名.bat](https://github.com/Mapaler/VBScript/raw/master/%E6%97%A5%E6%96%87%E4%B9%B1%E7%A0%81%E6%96%87%E4%BB%B6%E5%90%8D%20to%20Unicode%E6%94%B9%E5%90%8D.bat) 和 [VBScript/JP_fn_to_U.vbs](https://github.com/Mapaler/VBScript/raw/master/VBScript/JP_fn_to_U.vbs) 两个文件，注意要按照文件夹结构保存。  
 将文件名为乱码的文件或文件夹（可多个）拖到本脚本上运行，会自动转换名称到原始的日文。  
-如果不满意转换结果，可以进入`VBScript`文件夹使用对应生成的`恢复.bat`将修改的文件名还原。
+如果不满意转换结果，可以进入`VBScript`文件夹使用对应生成的`恢复.bat`将修改的文件名还原。  
+遇到错误将已是中文的文件名转换为乱码的情况，可对`JP_fn_to_U.vbs`进行修改，`NoCovertChar`内可以添加凡是遇到该字符就不对文件名进行转换的字。
 
 *注：此脚本不改变文件内容。*
 ## 缩减文件夹
